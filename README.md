@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-KBSystem is a reports system for the Barangay. The aim of this program is to export the generated reports into pdf and excel files while providing a minimalistic design.
+KBSystem is a reports system for the Barangay. The aim of this program is to export the generated reports into PDF and Excel files while providing a minimalistic design.
 
 ## Dependencies
 
