@@ -1,0 +1,45 @@
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+  cursor: pointer;
+  *cursor: hand;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+table.dataTable thead .sorting {
+  background-image: url("../img/icons/gray.png");
+}
+table.dataTable thead .sorting_asc {
+  background-image: url("../img/icons/red-u.png") !important;
+}
+table.dataTable thead .sorting_desc {
+  background-image: url("../img/icons/red-d.png") !important;
+}
+table.dataTable thead .sorting_asc_disabled {
+  background-image: url("../img/icons/gray-d.png");
+}
+table.dataTable thead .sorting_desc_disabled {
+  background-image: url("../img/icons/gray-u.png");
+}
+
+table.dataTable.compact thead th,
+table.dataTable.compact thead td {
+  padding: 4px 17px;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  float: left;
+  text-align: right;
+  margin-left: 1rem;
+}
+.dataTables_wrapper .dataTables_filter input {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  padding: 4px;
+  background-color: transparent;
+  margin-left: 0.5rem;
+  width: 15rem;
+  height: 2rem;
+}
